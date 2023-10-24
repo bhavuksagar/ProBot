@@ -11,7 +11,7 @@ from langchain.chains.qa_with_sources.retrieval import RetrievalQAWithSourcesCha
 from langchain.llms import HuggingFaceHub
 
 
-DB_FAISS_PATH = '/home/ubuntu/probot/vectorstore/db_faiss'
+DB_FAISS_PATH = '/home/ubuntu/ProBot/Data/vectorstore/db_faiss'
 
 custom_prompt_template = """
 You are a helpful assistant, you will use the provided context to answer the questions.
