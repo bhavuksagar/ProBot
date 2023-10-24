@@ -4,8 +4,8 @@ from langchain.document_loaders import PyPDFLoader, DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from dotenv import load_dotenv
 #path for the data and vector DB
-DATA_PATH = '/home/ubuntu/probot/Data'
-DB_FAISS_PATH = '/home/ubuntu/probot/vectorstore/db_faiss'
+DATA_PATH = '/home/ubuntu/ProBot/Data'
+DB_FAISS_PATH = '/home/ubuntu/ProBot/Data/vectorstore/db_faiss'
 
 load_dotenv()
 # Create vector database
